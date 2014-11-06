@@ -1,3 +1,11 @@
+.dark_overlay {
+  background:rgba(255,255,255,0.5);
+}
+
+.appnovation {
+  padding-left: 50px;
+}
+
 .parallax {
     height: 100vh;
     overflow-x: hidden;
@@ -22,6 +30,12 @@
   .parallax__layer--back {
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
+  }
+
+  .parallax__layer--static {
+    -webkit-transform: translateZ(-10px) scale(11);
+    transform: translateZ(-10px) scale(11);
+    background-attachment: fixed;
   }
 
 
