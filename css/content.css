@@ -1,5 +1,127 @@
+.grey-box {
+	background-color: rgba(255,255,255,0.2);
+}
+
+.resume {
+	margin-top: -10px;
+	font-size: 12pt;
+	background-color: rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+
 .content-container {
-  padding-top: 50px;
   padding-left: 21%;
   padding-right: 21%;
 }
+
+.parallax-banner {
+   background: url('http://i.imgur.com/4SMJoKf.jpg') no-repeat center center fixed;
+   color:#fff;
+   background-size:cover;
+   padding-bottom: 105px;
+}
+
+.parallax-experience {
+   background: url('http://i.imgur.com/fKKev7f.jpg') no-repeat center center fixed;
+   color:#fff;
+   background-size:cover;
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+}
+
+.banner {
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(0,0,0,0.7);
+	overflow: hidden;
+}
+
+.header-links {
+	font-size: 12px;
+}
+
+.github-link {
+	font-size: 11px;
+}
+
+.jumbotron-modified {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+.jumbotron-modified h1,
+.jumbotron-modified .h1 {
+  color: inherit;
+}
+.jumbotron-modified p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron-modified > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron-modified,
+.container-fluid .jumbotron-modified {
+  border-radius: 6px;
+}
+.jumbotron-modified .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron-modified {
+    padding: 50px 0 3px 0;
+  }
+  .container .jumbotron-modified {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron-modified h1,
+  .jumbotron-modified .h1 {
+    font-size: 63px;
+  }
+
+
+
+.jumbotron-experience {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+.jumbotron-experience h1,
+.jumbotron-experience .h1 {
+  color: inherit;
+}
+.jumbotron-experience p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron-experience > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron-experience,
+.container-fluid .jumbotron-experience {
+  border-radius: 6px;
+}
+.jumbotron-experience .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron-experience {
+    padding: 3px 0;
+  }
+  .container .jumbotron-experience{
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron-experience h1,
+  .jumbotron-experience .h1 {
+    font-size: 63px;
+  }
