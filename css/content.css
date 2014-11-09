@@ -1,3 +1,28 @@
+.caption-box {
+    display: table;
+    white-space: normal;
+}
+
+.caption-box span.title {
+    font-size: 2.4em;
+    font-weight: 400;
+    white-space: normal;
+    /*white-space: nowrap;*/
+}
+
+.caption-box span.text{
+    font-size: 1.8em;
+    font-weight: 400;
+    white-space: normal;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+.caption-box span.title {
+    font-size: 2.6em;
+    white-space: nowrap;
+    position: static;
+}
+
 .grey-box {
 	background-color: rgba(255,255,255,0.2);
 }
@@ -5,9 +30,35 @@
 .resume {
 	margin-top: -10px;
 	font-size: 12pt;
-	background-color: rgba(0,0,0,0.5);
+  color: #FFFFFF;
+	background-color: rgba(0,0,0,0.7);
 	overflow: hidden;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
 }
+.resume:hover {
+  color: #000000;
+  background-color: rgba(255,255,255,0.7);
+  text-decoration: none;
+}
+
+.appno-link {
+  font-size: 2.6em;
+  color: #FFFFFF;
+  white-space: nowrap;
+  position: static;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(0,0,0,0.7);
+  /*overflow: hidden;*/
+}
+.appno-link:hover {
+  color: #000000;
+  background-color: rgba(255,255,255,0.7);
+  text-decoration: none;
+}
+/*.appno-link:active {
+  color: #000000;
+}*/
 
 .content-container {
   padding-left: 21%;
@@ -26,7 +77,7 @@
    color:#fff;
    background-size:cover;
    padding-top: 25px;
-   padding-bottom: 25px;
+   padding-bottom: 50px;
 }
 
 p {
@@ -37,7 +88,7 @@ p {
 .banner {
 	font-family: 'Open Sans', sans-serif;
 	background-color: rgba(0,0,0,0.7);
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .header-links {
