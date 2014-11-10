@@ -1,3 +1,18 @@
+.left-position {
+  left: -2.9%;
+}
+
+.headshot {
+  width: 250px;
+  height: auto; 
+}
+
+.bullets {
+  font-size:1.5em;
+  left-margin: 10px;
+  left-padding: 10px;
+}
+
 .caption-box {
     display: table;
     white-space: normal;
