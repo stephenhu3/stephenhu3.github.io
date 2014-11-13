@@ -1,3 +1,5 @@
+a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
+
 #bg {
     top: 0;
     left: 0;
@@ -113,7 +115,7 @@ p {
 
 .banner {
 	font-family: 'Open Sans', sans-serif;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.6);
 	/*overflow: hidden;*/
 }
 
