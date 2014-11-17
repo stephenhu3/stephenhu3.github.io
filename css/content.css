@@ -1,5 +1,13 @@
 a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
 
+.spacing {
+  padding-top: 10pt;
+}
+
+.scrollspy {
+  position: relative;
+}
+
 #bg {
     top: 0;
     left: 0;
@@ -15,14 +23,24 @@ a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
 }
 
 .headshot {
+  /*position: fixed;*/
   width: 250px;
   height: auto; 
 }
 
+.headshotHover {
+  /*position:fixed;*/
+  width: 250px;
+  height: auto; 
+}
+
+.img-circle.headshotHover:hover {
+  display:none;
+}
+
 .bullets {
   font-size:1.5em;
-  left-margin: 10px;
-  left-padding: 10px;
+  margin-left: 10pt;
 }
 
 .caption-box {
@@ -93,7 +111,7 @@ a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
 }
 
 .parallax-banner {
-   background: url('http://i.imgur.com/4SMJoKf.jpg') no-repeat center center fixed;
+   background: url('http://i.imgur.com/DUD2dbf.jpg') no-repeat center center fixed;
    color:#fff;
    background-size:cover;
    padding-bottom: 105px;
@@ -101,7 +119,7 @@ a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
 }
 
 .parallax-experience {
-   background: url('http://i.imgur.com/XonzRcG.jpg') no-repeat center center fixed;
+   background: url('http://i.imgur.com/HaqrkpG.jpg') no-repeat center center fixed;
    color:#fff;
    background-size:cover;
    padding-top: 25px;
