@@ -3,13 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<title>Will Code For Food</title>
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript"></script>-->
+	<script type="text/javascript" src="js/jquery-2.1.1.js" type="text/javascript"></script>
+	<script type="text/javascript" src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/masonry.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/parallax.css">
 	<link rel="stylesheet" type="text/css" href="css/content.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-	<script src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
-	<script src="js/blur.js"></script>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,700,100,400|Roboto:900,900italic,500,400italic,100,700italic,300,700,500italic,100italic,300italic,400' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 
@@ -42,7 +46,7 @@
 		<div class="parallax-banner">
 			<div class="container">
 <div class="caption-box">
-				<h2 class="banner">Coding is my favourite pastime next to slow cooking gourmet stews and roasting perfect s'mores.</h2>	
+				<h2 class="banner">Coding is my favourite pastime next to brewing gourmet stews and roasting perfect s'mores.</h2>	
 			</div>
 <div class="caption-box">
 				<p class="banner">I am a software engineering co-op student at the University of British Columbia. I make websites, build robots, and program indie games. If you have an interesting opportunity or a cool project, we should totally chat.</p>
@@ -52,7 +56,7 @@
 			<span class="caption-box">
 				<h5 class="banner">stephenhu3 (at) gmail.com</h5>
 			</span>
-				<a href="https://drive.google.com/file/d/0BzsBG41smFPKbGF4MWFpX0V5Y1E/view?usp=sharing" class="resume">Download Resume</a>
+				<a href="https://drive.google.com/file/d/0BzsBG41smFPKbGF4MWFpX0V5Y1E/view?usp=sharing" class="resume" target="_blank">Download Resume</a>
 
 			</div>
 		</div>
@@ -78,7 +82,7 @@
 				  <!-- <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 right-position"> -->
 				  <p>University of British Columbia</p>
 				<p>Bachelor of Applied Science in Computer Engineering, Software Engineering Option </p>
-				<p>My name is Stephen Hu and I write code for fun and for learning with the help of my favourite debugger, my cat Toki. When I'm not basking in the warm glow of my monitors, I enjoy freestyling with my dance crew, binging on HBO, and filing my taxes. The best music experience of my life was watching Run River North live in June 2014. <a href="http://en.wikipedia.org/wiki/Tux" target="_blank">Tux</a> is my spirit animal.</p>
+				<p>My name is Stephen Hu and I write code for fun and for learning with the help of my favourite debugger, my cat Tokidoki. When I'm not basking in the warm glow of my monitors, I enjoy freestyling with my dance crew, binging on HBO, and filing my taxes. The best music experience of my life was watching Run River North live in June 2014. <a href="http://en.wikipedia.org/wiki/Tux" target="_blank">Tux</a> is my Patronus.</p>
 				<!-- </div> -->
 				</div>
 				
@@ -142,42 +146,41 @@
 			<h1>Projects</h1>
 
 			<div class="row">
-			  <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> -->
 			    <div class="thumbnail">
 			      <a href="https://github.com/OpenSourceMafia/OpenSourceMafia" target="_blank"><img src="http://i.imgur.com/JpUIjc7.png"/></a>
 			      <div class="caption">
 			        <h3>Open Source Mafia Hobby Project</h3>
-			        <p>Open source Java-based platform for the Mafia murder mystery party game currently available on desktop and Android 4.0+.</p>
+			        <p>Open source Java-based platform for the Mafia murder mystery party game currently available on desktop and Android 4.0.</p>
 			        <ul>
-					<li class="bullets">Each player is randomly assigned a role and an alignment towards the Mafia or the Town.</li>
+					<li class="bullets project">Each player is randomly assigned a role and an alignment towards the Mafia or the Town.</li>
 
-					<li class="bullets">Every night, each player performs his/her role's ability and votes towards eliminating a suspicious player.</li>
+					<li class="bullets project">Every night, each player performs his/her role's ability and votes towards eliminating a suspicious player.</li>
 
-					<li class="bullets">This is a game of deceit, persuasion, teamwork, and careful planning.</li>
+					<li class="bullets project">This is a game of deceit, persuasion, teamwork, and careful planning.</li>
 
-					<li class="bullets">The goal of each player depends on the winning condition of the respective roles.</li>
+					<li class="bullets project">The goal of each player depends on the winning condition of the respective roles.</li>
 
-					<li class="bullets">Game rules and roles are based on the SC2 Mafia Wiki: http://wiki.sc2mafia.com/index.php?title=Main_Page</li>
+					<li class="bullets project">Game rules and roles are based on the SC2 Mafia Wiki: <a href="http://wiki.sc2mafia.com/index.php?title=Main_Page" target="_blank">http://wiki.sc2mafia.com/index.php?title=Main_Page</li>
 			        </ul>
 			        <p><a href="http://opensourcemafia.github.io/OpenSourceMafia/" target="_blank" class="btn btn-default" role="button">Visit Site</a> <a href="https://github.com/OpenSourceMafia/OpenSourceMafia" target="_blank" class="btn btn-default" role="button">View Code</a></p>
 			      </div>
 			    </div>
 			  </div>
 
-<div class="js-masonry" data-masonry-options='{"itemSelector": ".col-xs-6.col-sm-6.col-md-6.col-lg-6" }'>
+<div id="masonry">
 		  	<div class="row">
 			  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 			    <div class="thumbnail">
 			      <img src="http://i.imgur.com/6roSdeM.jpg">
 			      <div class="caption">
-			        <h3>Autonomous Electromagnetic Following Robot</h3>
-		        	<p>Solenoid receivers read voltage based on distance from remote's electromagnetic transmitter and follows the remote's physical location.</p>
+			        <h3>Autonomous Electromagnetic Robot</h3>
+		        	<p class="project">Solenoid receivers read voltage based on distance from remote's electromagnetic transmitter and follows the remote's physical location.</p>
 
-		        	<p>The remote can send commands to parallel park, reverse orientation, and adjust following distance.</p>
+		        	<p class="project">The remote can send commands to parallel park, reverse orientation, and adjust following distance.</p>
 
-					<p>Robot's embedded software was written in C with some embedded assembly flashed to a modified Atmel AT89 microcontroller.</p>
+					<p class="project">Robot's embedded software was written in C with some embedded assembly flashed to a modified Atmel AT89 microcontroller.</p>
 
-					<p>Autonomous control can be manually overridden by plugging in and using the modified arcade joystick.</p>
+					<p class="project">Autonomous control can be manually overridden by plugging in and using the modified arcade joystick.</p>
 			        <p><a href="https://github.com/stephenhu3/AutonomousElectromagneticRobot" target="_blank" class="btn btn-default" role="button">View Code</a></p>
 			      </div>
 			    </div>
@@ -190,9 +193,9 @@
 			      <img src="http://i.imgur.com/zdGSChw.jpg">
 			      <div class="caption">
 			        <h3>Harkour Parkour</h3>
-			        <p>Parkour-themed endless-runner style game coded in Java and made with original sprites</p>
-			        <p>Player performs flips and rolls for combo multipliers while navigating rooftops and collecting 'street cred'</p>
-			        <p>Features an algorithm for procedurally generating the level layout for emergent gameplay</p>
+			        <p class="project">Parkour-themed endless-runner style game coded in Java and made with original sprites</p>
+			        <p class="project">Player performs flips and rolls for combo multipliers while navigating rooftops and collecting 'street cred'</p>
+			        <p class="project">Features an algorithm for procedurally generating the level layout for emergent gameplay</p>
 			        <p><a href="https://github.com/stephenhu3/HarkourParkour" target="_blank" class="btn btn-default" role="button">View Code</a></p>
 			      </div>
 			    </div>
@@ -206,23 +209,23 @@
 			      <div class="caption">
 			        <h3>High-Level Programming</h3>
 			        <ul>
-			        <li class="bullets">Basic Web Server and Client, C (2014) – Client program using TCP transport protocol to make HTTP requests and receive responses, web server listens for arithmetic requests, parses the equation, computes it, and responds to the client with the answer</li>
+			        <li class="bullets project">Basic Web Server and Client, C (2014) – Client program using TCP transport protocol to make HTTP requests and receive responses, web server listens for arithmetic requests, parses the equation, computes it, and responds to the client with the answer</li>
 
-					<li class="bullets">Dining Philosophers, C (2014) – Classic concurrency exercise implementing different synchronization strategies to demonstrate the methods of preventing deadlocks in multi-threaded programs</li>
+					<li class="bullets project">Dining Philosophers, C (2014) – Classic concurrency exercise implementing different synchronization strategies to demonstrate the methods of preventing deadlocks in multi-threaded programs</li>
 
-					<li class="bullets">Cache Memory Simulation, C (2014) – Simulates the behaviour of a memory cache given a sequence of accesses</li>
+					<li class="bullets project">Cache Memory Simulation, C (2014) – Simulates the behaviour of a memory cache given a sequence of accesses</li>
 
-					<li class="bullets">Simon Game, C (2013) – Coded a memory-based game designed to be fully functional with custom DAQ hardware</li>
+					<li class="bullets project">Simon Game, C (2013) – Coded a memory-based game designed to be fully functional with custom DAQ hardware</li>
 
-					<li class="bullets">Data Acquisition and Analysis, C (2013) – Programmed software designed for computation in engineering design, including positioning and numerical and text displays for use with custom DAQ hardware</li>
+					<li class="bullets project">Data Acquisition and Analysis, C (2013) – Programmed software designed for computation in engineering design, including positioning and numerical and text displays for use with custom DAQ hardware</li>
 
-					<li class="bullets">Library Management System, Java (2013) – Programmed software to manage library users and book inventory</li>
+					<li class="bullets project">Library Management System, Java (2013) – Programmed software to manage library users and book inventory</li>
 
-					<li class="bullets">Music Catalogue, Java (2013) – Coded fully featured music cataloguing software with querying and XML encoding</li>
+					<li class="bullets project">Music Catalogue, Java (2013) – Coded fully featured music cataloguing software with querying and XML encoding</li>
 
-					<li class="bullets">HTML Validator, Java (2013) – Programmed software for validating formatting of HTML documents</li>
+					<li class="bullets project">HTML Validator, Java (2013) – Programmed software for validating formatting of HTML documents</li>
 
-					<li class="bullets">Hobby Indie Games: Escape From Manhattan, Digester-3000, Hamlet’s Quest, Computitron, Connect 4, Star Strikers (2009-2011), GML – Foray into programming, developed knowledge of AI, OOP, and UI concepts algorithm for procedurally generating the level layout for emergent gameplay</li><br>
+					<li class="bullets project">Hobby Indie Games: Escape From Manhattan, Digester-3000, Hamlet’s Quest, Computitron, Connect 4, Star Strikers (2009-2011), GML – Foray into programming, developed knowledge of AI, OOP, and UI concepts algorithm for procedurally generating the level layout for emergent gameplay</li><br>
 					<ul>
 			        <p><a href="https://github.com/stephenhu3/AutonomousElectromagneticRobot" target="_blank" class="btn btn-default" role="button">View Code</a></p>
 			      </div>
@@ -237,25 +240,25 @@
 			      <div class="caption">
 			        <h3>Low-Level Programming</h3>
 			        <ul>
-			        <li class="bullets">Motor Controller, C (2014) – Isolated motor controller using a "MOSFET H-Bridge" circuit with pulse-width modulation control written in embedded C</li>
+			        <li class="bullets project">Motor Controller, C (2014) – Isolated motor controller using a "MOSFET H-Bridge" circuit with pulse-width modulation control written in embedded C</li>
 
-					<li class="bullets">Phasor Voltmeter, C (2014) – 60Hz AC peak detector using a precision diode which detects and displays the test signal's volts RMS, frequency, and phase difference between the test and reference signal</li>
+					<li class="bullets project">Phasor Voltmeter, C (2014) – 60Hz AC peak detector using a precision diode which detects and displays the test signal's volts RMS, frequency, and phase difference between the test and reference signal</li>
 
-					<li class="bullets">Water Level Sensor, C (2014) – Detects the water level in jar and outputs it the 7-segment displays by following the inverse relationship between capacitance and the frequency output of the 555 timer circuit used as an astable oscillator</li>
+					<li class="bullets project">Water Level Sensor, C (2014) – Detects the water level in jar and outputs it the 7-segment displays by following the inverse relationship between capacitance and the frequency output of the 555 timer circuit used as an astable oscillator</li>
 
-					<li class="bullets">Reflow Oven Controller, 8051 Assembly (2014) – Uses a K-type thermocouple to detect temperatures between 0 to 250 degrees Celsius The controller regulates the temperature using pulse-width modulation and has user-configurable settings for soak temperature, soak time, reflow temperature, and reflow time Displays current state, running time, and temperature using the LCD and 7-segment displays with a temperature strip chart log</li>
+					<li class="bullets project">Reflow Oven Controller, 8051 Assembly (2014) – Uses a K-type thermocouple to detect temperatures between 0 to 250 degrees Celsius The controller regulates the temperature using pulse-width modulation and has user-configurable settings for soak temperature, soak time, reflow temperature, and reflow time Displays current state, running time, and temperature using the LCD and 7-segment displays with a temperature strip chart log</li>
 
-					<li class="bullets">Digital Thermometer, 8051 Assembly (2014) – Embedded thermometer's analog data is converted using an ADC circuit and transmitted serially and logged to a Python strip chart</li>
+					<li class="bullets project">Digital Thermometer, 8051 Assembly (2014) – Embedded thermometer's analog data is converted using an ADC circuit and transmitted serially and logged to a Python strip chart</li>
 
-					<li class="bullets">Alarm Clock, 8051 Assembly (2014) – Adjustable alarm clock with date, time, and snooze functions</li>
+					<li class="bullets project">Alarm Clock, 8051 Assembly (2014) – Adjustable alarm clock with date, time, and snooze functions</li>
 
-					<li class="bullets">32 Bit Frequency Meter, 8051 Assembly (2013) – Displays frequency in BCD from input oscilloscope source</li>
+					<li class="bullets project">32 Bit Frequency Meter, 8051 Assembly (2013) – Displays frequency in BCD from input oscilloscope source</li>
 
-					<li class="bullets">16 Bit BCD Calculator, 8051 Assembly (2013) – Eight digit 16 bit BCD calculator designed for the DE2-8052 soft processor</li>
+					<li class="bullets project">16 Bit BCD Calculator, 8051 Assembly (2013) – Eight digit 16 bit BCD calculator designed for the DE2-8052 soft processor</li>
 
-					<li class="bullets">VCR Controller, VHDL (2013) – Implements Mealy FSM model with LCD message display and BCD counter</li>
+					<li class="bullets project">VCR Controller, VHDL (2013) – Implements Mealy FSM model with LCD message display and BCD counter</li>
 
-					<li class="bullets">BCD Calculator, VHDL (2013) – Synthesized first with truth tables and Boolean equations, then optimized with logic gates and redesigned using VHDL</li><br>
+					<li class="bullets project">BCD Calculator, VHDL (2013) – Synthesized first with truth tables and Boolean equations, then optimized with logic gates and redesigned using VHDL</li><br>
 					<ul>
 			        <p><a href="https://github.com/stephenhu3/HarkourParkour" target="_blank" class="btn btn-default" role="button">View Code</a></p>
 			      </div>
