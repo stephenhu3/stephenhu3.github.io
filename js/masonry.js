@@ -8,7 +8,7 @@ $(document).ready(function() {
 	  	var msnry = new Masonry( container, {
 		  // options
 
-		  itemSelector: '.col-xs-6.col-sm-6.col-md-6.col-lg-6'
+		  itemSelector: '.col-xs-12.col-sm-12.col-md-6.col-lg-6'
 		});
 	});
 
