@@ -16,6 +16,10 @@ a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
   position: relative;
 }
 
+.academic {
+  line-height: 1em;
+}
+
 #bg {
     top: 0;
     left: 0;
@@ -43,7 +47,6 @@ a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
 }
 
 .headshot {
-  /*position: fixed;*/
   float: left;
   width: 240px;
   height: auto; 
@@ -52,7 +55,6 @@ a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
 }
 
 .headshotHover {
-  /*position:fixed;*/
   width: 250px;
   height: auto; 
 }
@@ -85,6 +87,7 @@ a {
 
 }
 
+
 .caption-box {
     display: table;
     white-space: normal;
@@ -94,18 +97,13 @@ a {
     font-size: 2.4em;
     font-weight: 400;
     white-space: normal;
-    /*white-space: nowrap;*/
 }
 
 .caption-box span.text{
-    /*font-size: 1.8em;*/
-    /*font-weight: 400;*/
     white-space: normal;
-    /*font-family: 'Roboto', sans-serif;*/
 }
 
 .caption-box span.title {
-    /*font-size: 2.6em;*/
     white-space: nowrap;
     position: static;
 }
@@ -124,16 +122,13 @@ a {
   font-family: 'Roboto Slab', serif;
   font-weight: 500;
   padding: 1px 2px 1px 2px;
-  /*overflow: hidden;*/
 }
 .appno-link:hover {
   color: #000000;
   background-color: rgba(255,255,255,0.7);
   text-decoration: none;
 }
-/*.appno-link:active {
-  color: #000000;
-}*/
+
 
 .banner.text {
   font-family: 'Roboto', sans-serif;
@@ -148,7 +143,7 @@ a {
 }
 
 .parallax-banner {
-   background: url('http://i.imgur.com/DUD2dbf.jpg') no-repeat center center fixed;
+   background: url('http://i.imgur.com/KQHizeK.jpg');
    color:#fff;
    background-size:cover;
    padding-bottom: 105px;
@@ -178,6 +173,7 @@ h2.banner {
   font-weight: 500;
   font-size: 32px;
   padding: 5px;
+  margin-top: 25px;
 }
 
 p.banner {
@@ -188,7 +184,7 @@ p.banner {
 h5.banner {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  padding: 2px;
+  padding: 2px 3px 2px 3px;
 }
 
 .resume {
@@ -209,18 +205,16 @@ h5.banner {
 
 
 p {
-	/*font-family: 'Open Sans', sans-serif;*/
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  /*padding: 5px;*/
 	font-size: 12pt;
   line-height: 1.6em;
 }
 
 .banner {
-	/*font-family: 'Open Sans', sans-serif;*/
 	background-color: rgba(0,0,0,0.6);
-	/*overflow: hidden;*/
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .jumbotron-modified {
@@ -235,6 +229,8 @@ p {
 }
 .jumbotron-modified p {
   margin-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   font-size: 21px;
 }
 .jumbotron-modified > hr {
