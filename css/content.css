@@ -143,7 +143,7 @@ a {
 }
 
 .parallax-banner {
-   background: url('http://i.imgur.com/KQHizeK.jpg');
+   background: url('../img/jumbotron-main.jpg');
    color:#fff;
    background-size:cover;
    padding-bottom: 105px;
@@ -151,7 +151,7 @@ a {
 }
 
 .parallax-experience {
-   background: url('http://i.imgur.com/HaqrkpG.jpg') no-repeat center center fixed;
+   background: url('../img/jumbotron-secondary.jpg') no-repeat center center fixed;
    color:#fff;
    background-size:cover;
    padding-top: 25px;
