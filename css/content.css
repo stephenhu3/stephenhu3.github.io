@@ -1,25 +1,24 @@
-a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
-
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
 .navbar.navbar-default.navbar-fixed-top {
-  background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
-
 .navbar-fixed-top {
-  border-width: 0 0 3px;
+    border-width: 0 0 3px;
 }
-
 .spacing {
-  padding-top: 10pt;
+    padding-top: 10pt;
 }
-
 .scrollspy {
-  position: relative;
+    position: relative;
 }
-
 .academic {
-  line-height: 1em;
+    line-height: 1em;
 }
-
 #bg {
     top: 0;
     left: 0;
@@ -29,269 +28,233 @@ a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
     background: #FFF;
     background-size: cover !important;
 }
-
 .left-position {
-  left: -2.9%;
+    left: -2.9%;
 }
-
 .header-links {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
 }
-
 .github-link {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
 }
-
 .headshot {
-  float: left;
-  width: 240px;
-  height: auto; 
-
-  margin: 5pt 15pt 5pt -15pt;
+    float: left;
+    width: 240px;
+    height: auto;
+    margin: 5pt 15pt 5pt -15pt;
 }
-
-.headshotHover {
-  width: 250px;
-  height: auto; 
+#portrait-container {
+    position: relative;
+    float: left;
 }
-
-.img-circle.headshotHover:hover {
-  display:none;
+#portrait-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
 }
-
 a {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
-
 .project {
-  font-size: 1.3em;
+    font-size: 1.3em;
 }
-
-.bullets.project{
-  font-size: 1.3em;
-  margin-bottom: 0.6em;
+.bullets.project {
+    font-size: 1.3em;
+    margin-bottom: 0.6em;
 }
-
 .bullets {
-  font-size: 1.5em;
-  margin-left: 10pt;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  line-height: 1.6em;
-  margin-bottom: 0.7em;
-
+    font-size: 1.5em;
+    margin-left: 10pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-bottom: 0.7em;
 }
-
-
 .caption-box {
     display: table;
     white-space: normal;
 }
-
 .caption-box span.title {
     font-size: 2.4em;
     font-weight: 400;
     white-space: normal;
 }
-
-.caption-box span.text{
+.caption-box span.text {
     white-space: normal;
 }
-
 .caption-box span.title {
     white-space: nowrap;
     position: static;
 }
-
 .grey-box {
-	background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
-
-
 .appno-link {
-  font-size: 2.6em;
-  color: #FFFFFF;
-  white-space: nowrap;
-  position: static;
-  background-color: rgba(0,0,0,0.7);
-  font-family: 'Roboto Slab', serif;
-  font-weight: 500;
-  padding: 1px 2px 1px 2px;
+    font-size: 2.6em;
+    color: #FFFFFF;
+    white-space: nowrap;
+    position: static;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    padding: 1px 2px 1px 2px;
 }
 .appno-link:hover {
-  color: #000000;
-  background-color: rgba(255,255,255,0.7);
-  text-decoration: none;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
 }
-
-
 .banner.text {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  padding: 0px 2px 0px 2px;
-  font-size: 1.7em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 0px 2px 0px 2px;
+    font-size: 1.7em;
 }
-
 .content-container {
-  padding-left: 21%;
-  padding-right: 21%;
+    padding-left: 21%;
+    padding-right: 21%;
 }
-
 .parallax-banner {
-   background: url('../img/jumbotron-main.jpg');
-   color:#fff;
-   background-size:cover;
-   padding-bottom: 105px;
-
+    background: url('../img/jumbotron-main.jpg');
+    color: #fff;
+    background-size: cover;
+    padding-bottom: 105px;
 }
-
 .parallax-experience {
-   background: url('../img/jumbotron-secondary.jpg') no-repeat center center fixed;
-   color:#fff;
-   background-size:cover;
-   padding-top: 25px;
-   padding-bottom: 50px;
+    background: url('../img/jumbotron-secondary.jpg') no-repeat center center fixed;
+    color: #fff;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
-
 h1 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
 }
-
 h3 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
 }
-
 h2.banner {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 500;
-  font-size: 32px;
-  padding: 5px;
-  margin-top: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 32px;
+    padding: 5px;
+    margin-top: 25px;
 }
-
 p.banner {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
-
 h5.banner {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  padding: 2px 3px 2px 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 2px 3px 2px 3px;
 }
-
 .resume {
-  margin-top: -10px;
-  font-size: 12pt;
-  color: #FFFFFF;
-  background-color: rgba(0,0,0,0.7);
-  overflow: hidden;
-  font-weight: 500;
-  font-family: 'Roboto', sans-serif;
-  padding: 2px;
+    margin-top: -10px;
+    font-size: 12pt;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
 }
 .resume:hover {
-  color: #000000;
-  background-color: rgba(255,255,255,0.7);
-  text-decoration: none;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
 }
-
-
 p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-	font-size: 12pt;
-  line-height: 1.6em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 1.6em;
 }
-
 .banner {
-	background-color: rgba(0,0,0,0.6);
-  padding-left: 5px;
-  padding-right: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 5px;
+    padding-right: 5px;
 }
-
 .jumbotron-modified {
-  padding: 30px 15px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #e7e7e7;
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #e7e7e7;
 }
 .jumbotron-modified h1,
 .jumbotron-modified .h1 {
-  color: inherit;
+    color: inherit;
 }
 .jumbotron-modified p {
-  margin-bottom: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
-  font-size: 21px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 21px;
 }
 .jumbotron-modified > hr {
-  border-top-color: #d5d5d5;
+    border-top-color: #d5d5d5;
 }
 .container .jumbotron-modified,
 .container-fluid .jumbotron-modified {
-  border-radius: 6px;
+    border-radius: 6px;
 }
 .jumbotron-modified .container {
-  max-width: 100%;
+    max-width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .jumbotron-modified {
-    padding: 50px 0 3px 0;
-  }
-  .container .jumbotron-modified {
-    padding-right: 60px;
-    padding-left: 60px;
-  }
-  .jumbotron-modified h1,
-  .jumbotron-modified .h1 {
-    font-size: 63px;
-  }
-
-
-
-.jumbotron-experience {
-  padding: 30px 15px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #e7e7e7;
-}
-.jumbotron-experience h1,
-.jumbotron-experience .h1 {
-  color: inherit;
-}
-.jumbotron-experience p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
-}
-.jumbotron-experience > hr {
-  border-top-color: #d5d5d5;
-}
-.container .jumbotron-experience,
-.container-fluid .jumbotron-experience {
-  border-radius: 6px;
-}
-.jumbotron-experience .container {
-  max-width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .jumbotron-experience {
-    padding: 3px 0;
-  }
-  .container .jumbotron-experience{
-    padding-right: 60px;
-    padding-left: 60px;
-  }
-  .jumbotron-experience h1,
-  .jumbotron-experience .h1 {
-    font-size: 63px;
-  }
+    .jumbotron-modified {
+        padding: 50px 0 3px 0;
+    }
+    .container .jumbotron-modified {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .jumbotron-modified h1,
+    .jumbotron-modified .h1 {
+        font-size: 63px;
+    }
+    .jumbotron-experience {
+        padding: 30px 15px;
+        margin-bottom: 30px;
+        color: inherit;
+        background-color: #e7e7e7;
+    }
+    .jumbotron-experience h1,
+    .jumbotron-experience .h1 {
+        color: inherit;
+    }
+    .jumbotron-experience p {
+        margin-bottom: 15px;
+        font-size: 21px;
+        font-weight: 200;
+    }
+    .jumbotron-experience > hr {
+        border-top-color: #d5d5d5;
+    }
+    .container .jumbotron-experience,
+    .container-fluid .jumbotron-experience {
+        border-radius: 6px;
+    }
+    .jumbotron-experience .container {
+        max-width: 100%;
+    }
+    @media screen and (min-width: 768px) {
+        .jumbotron-experience {
+            padding: 3px 0;
+        }
+        .container .jumbotron-experience {
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+        .jumbotron-experience h1,
+        .jumbotron-experience .h1 {
+            font-size: 63px;
+        }

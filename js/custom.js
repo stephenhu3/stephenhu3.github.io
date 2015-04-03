@@ -1,7 +1,9 @@
-function linkedinHover() {
-    $('#circle-portrait').hover(function() {
-    	// TODO: add view linkedin effect, let's do a fade in, fadeout
+var fade = function() {
+    $('#portrait-overlay').hover(function() {
+        $(this).stop().fadeTo(150, 1);
+    }, function() {
+        $(this).stop().fadeTo(150, 0);
     });
-});
+}
 
-$(document).ready(linkedinHover);
+$(document).ready(fade);
