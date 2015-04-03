@@ -36,6 +36,13 @@ a.anchor {
     font-weight: 500;
     font-size: 12px;
 }
+.logo {
+  height: 18px;
+  width: 18px;
+  right: 3px;
+  bottom: 2px;
+  position: relative;
+}
 .github-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
