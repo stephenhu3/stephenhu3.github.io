@@ -133,8 +133,15 @@ a {
     background-size: cover;
     padding-bottom: 105px;
 }
-.parallax-experience {
+.parallax-experience-appno {
     background: url('../img/jumbotron-secondary.jpg') no-repeat center center fixed;
+    color: #fff;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.parallax-experience-ms {
+    background: url('../img/microsoft-experience.jpg') no-repeat center center fixed;
     color: #fff;
     background-size: cover;
     padding-top: 25px;
@@ -147,6 +154,9 @@ h1 {
 h3 {
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
+}
+.caption h3 {
+    margin-top: 10px;
 }
 h2.banner {
     font-family: 'Roboto Slab', serif;
