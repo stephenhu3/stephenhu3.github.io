@@ -1,369 +1,354 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<title>Will Code For Food</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js" type="text/javascript" ></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-	<script src="js/custom.js" type="text/javascript"></script>
-	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-	<link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Roboto+Slab:400|Roboto:300,400,500,700' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css">
-	<link rel="stylesheet" href="css/parallax.css" type="text/css">
-	<link rel="stylesheet" href="css/content.css" type="text/css">
-	
+    <meta charset="utf-8">
+    <title>Will Code For Food</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Roboto+Slab:400|Roboto:300,400,500,700' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/parallax.css" type="text/css">
+    <link rel="stylesheet" href="css/content.css" type="text/css">
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-57297383-1', 'auto');
-	  ga('require', 'displayfeatures');
-	  ga('send', 'pageview');
-
-	</script>
+        ga('create', 'UA-57297383-1', 'auto');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+    </script>
 </head>
+
 <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="container">
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
 
+                <body class="scrollspy" data-spy="scroll" data-target=".navbar-fixed-top">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#welcome" class="header-links" onclick="smoothScroll(document.getElementById('welcome'))">Welcome</a></li>
+                        <li><a href="#about" class="header-links" onclick="smoothScroll(document.getElementById('about'))">Who I am</a></li>
+                        <li><a href="#experience" class="header-links" onclick="smoothScroll(document.getElementById('experience'))">Experience</a></li>
+                        <li><a href="#projects" class="header-links" onclick="smoothScroll(document.getElementById('projects'))">Projects</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="https://github.com/stephenhu3" class="github-link" target="_blank"><img class="logo" src="img/logo.png">GitHub | Stephen Hu</a>
+                        </li>
 
-	<!-- Fixed navbar -->
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
-		         <span class="sr-only">Toggle navigation</span>
-		         <span class="icon-bar"></span>
-		         <span class="icon-bar"></span>
-		         <span class="icon-bar"></span>
-		      </button>
-		   </div>
-		<div class="container">
-<div class="collapse navbar-collapse" id="example-navbar-collapse">
-			<body class="scrollspy" data-spy="scroll" data-target=".navbar-fixed-top">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#welcome" class="header-links" onclick="smoothScroll(document.getElementById('welcome'))">Welcome</a></li>
-					<li><a href="#about" class="header-links" onclick="smoothScroll(document.getElementById('about'))">Who I am</a></li>
-					<li><a href="#experience" class="header-links" onclick="smoothScroll(document.getElementById('experience'))">Experience</a></li>
-					<li><a href="#projects" class="header-links" onclick="smoothScroll(document.getElementById('projects'))">Projects</a></li>
-				</ul>
+                    </ul>
+                </body>
+            </div>
+        </div>
+    </nav>
 
-				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<a href="https://github.com/stephenhu3" class="github-link" target="_blank"><img class="logo" src="img/logo.png">GitHub | Stephen Hu</a>
-					</li>
+    <!-- Jumbotron -->
+    <div class="jumbotron-modified" id="welcome">
+        <div class="parallax-banner">
+            <div class="container">
+                <div class="caption-box">
+                    <h2 class="banner">Coding is my favourite pastime next to brewing gourmet stews. It's the perfect blend of creativity, ingenuity, and intense obsession.</h2>
+                </div>
+                <div class="caption-box">
+                    <p class="banner">I develop applications, create websites & apps, build robots, and program indie games. If you have an interesting opportunity or a cool project, we should definitely chat.</p>
+                </div>
+                <a href="https://drive.google.com/file/d/0BzsBG41smFPKNll4MDcyN2o4bG8/view?usp=sharing" id="banner-link" target="_blank">View Resume</a>
+                <a href="https://www.linkedin.com/in/ubcstephen" id="banner-link" target="_blank">Visit LinkedIn</a>
+                <a href="mailto:stephenhu3@gmail.com?subject=Hey Stephen, let's chat!" id="banner-link" target="_blank">Contact Me</a>
+            </div>
+        </div>
+    </div>
 
-				</ul>
-			</body>
-		</div>
-	</div>
-	</nav>
+    <!-- Body content -->
+    <div class="content-container">
+        <div class="hero-unit">
+            <a class="anchor" id="about"></a>
+            <h1>Who I am</h1>
+            <div class="row">
+                <a href="https://www.linkedin.com/in/ubcstephen" target="_blank">
+                    <div id="circle-portrait">
+                        <div id="portrait-container">
+                            <img class="img-circle headshot" src="img/headshot.jpg">
+                            <img id="portrait-overlay" class="img-circle headshot" src='img/linkedin.jpg'>
+                        </div>
+                    </div>
+                </a>
+                <div class="bio">
+	                <p class="academic"><strong>UBC, Dean's Honour List</strong></p>
+	                <p class="academic"><strong>Software Engineering Concentration</strong></p>
+	                <p>I'm Stephen Hu, a third year software engineering major. I am pursuing my Bachelor of Applied Science in Computer Engineering at the University of British Columbia. I write code for fun and for learning alongside my debugger, my cat Toki. When I'm not basking in the warm glow of my monitors, I enjoy freestyling with my dance crew, binging on HBO, and filing my taxes. The best music experience of my life was seeing Run River North live in June 2014. <a href="http://en.wikipedia.org/wiki/Tux" target="_blank">Tux</a> is my Patronus.</p>
+            	</div>
+            </div>
+        </div>
+        <!-- Body content -->
+        <div class="hero-unit">
+            <div class="spacing"></div>
+            <a class="anchor" id="experience"></a>
+            <h1>Experience</h1>
+            <p>Aside from academic and hobby interests, I also code for profit. Here's a sample of where I've worked at. Not included here are my past high school jobs, volunteering positions, and that one time I helped mow my neighbour's lawn.</p>
+        </div>
+    </div>
 
+    <!-- Jumbotron -->
+    <div class="jumbotron-experience">
+        <div class="parallax-experience-ms">
+            <div class="container">
+                <div class="caption-box">
+                    <a class="appno-link" href="http://www.microsoft.com/" target="_blank">Microsoft</a>
+                    <br />
+                    <span class="banner text">Software Engineer Intern</span>
+                    <br />
+                    <span class="banner text">May 2015 to August 2015</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="content-container">
+        <!-- Body content -->
+        <div class="hero-unit">
+            <ul>
+                <li class="bullets">Developed a fully responsive, cross-platform mobile app fully integrated with an online educational platform servicing over 3.3 million registered users</li>
+                <li class="bullets">Defined project specifications and rapidly prototyped solutions using open source technologies</li>
+                <li class="bullets">Rapid turnaround of 3 weeks from initial design phase to first functional demo at all-hands presentation</li>
+                <li class="bullets">Delivered a completed end-to-end product in 12 weeks that was escalated and pitched to executive management </li>
+                <li class="bullets" style="padding-bottom: 10px">Promoted marketing and outreach strategies for reaching untapped markets and increasing platform adoption</li>
+            </ul>
 
-	<!-- Jumbotron -->
-	<div class="jumbotron-modified" id="welcome">
-		<div class="parallax-banner">
-			<div class="container">
-<div class="caption-box">
-				<h2 class="banner">Coding is my favourite pastime next to brewing gourmet stews. It's the perfect blend of creativity, ingenuity, and intense obsession.</h2>	
-			</div>
-<div class="caption-box">
-				<p class="banner">I develop applications, create websites & apps, build robots, and program indie games. If you have an interesting opportunity or a cool project, we should definitely chat.</p>
-				<span class="caption-box">
-			</span>
-			</div>
-			<span class="caption-box">
-				<h5 class="banner">stephenhu3@gmail.com</h5>
-			</span>
-				<a href="https://drive.google.com/file/d/0BzsBG41smFPKNll4MDcyN2o4bG8/view?usp=sharing" class="resume" target="_blank">View Resume</a>
+        </div>
+    </div>
 
-			</div>
-		</div>
-	</div>
+    <!-- Jumbotron -->
+    <div class="jumbotron-experience">
+        <div class="parallax-experience-appno">
+            <div class="container">
+                <div class="caption-box">
+                    <a class="appno-link" href="http://www.appnovation.com/blog/may-2014-co-op-cohort" target="_blank">Appnovation Technologies</a>
+                    <br />
+                    <span class="banner text">Software Quality Assurance Engineer Co-op</span>
+                    <br />
+                    <span class="banner text">May 2014 to December 2014</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="content-container">
+        <!-- Body content -->
+        <div class="hero-unit">
+            <ul>
+                <li class="bullets">Worked directly with and lead presentations for established clients including Nvidia, Estée Lauder, VentureBeat, and Teach For All to ensure continuously integrated features and functionality meet the client’s requirements</li>
 
-	<!-- Body content -->
-	<div class="content-container">
+                <li class="bullets">Established web test automation standards and guidelines that is currently used in Pfizer websites</li>
 
-			<div class="hero-unit">
-				<a class="anchor" id="about"></a>
-				<h1>Who I am</h1>
-				<div class="row">
-				  	<a href="https://www.linkedin.com/in/ubcstephen" target="_blank">
-				      <div id="circle-portrait">
-				      	<div  id="portrait-container">
-					      	<img class="img-circle headshot" src="img/headshot.jpg">
-				      		<img id="portrait-overlay" class="img-circle headshot" src='img/linkedin.jpg'>
-				      	</div>
-				      </div>
-				  	</a>
-				<p class="academic"><strong>UBC, Dean's Honour List</strong></p>
-				<p class="academic"><strong>Software Engineering Concentration</strong></p>
-				<p>I'm Stephen Hu, a third year software engineering major. I am pursuing my Bachelor of Applied Science in Computer Engineering at the University of British Columbia. I write code for fun and for learning alongside my debugger, my cat Toki. When I'm not basking in the warm glow of my monitors, I enjoy freestyling with my dance crew, binging on HBO, and filing my taxes. The best music experience of my life was seeing Run River North live in June 2014. <a href="http://en.wikipedia.org/wiki/Tux" target="_blank">Tux</a> is my Patronus.</p>
-				</div>
-				
-			</div>
+                <li class="bullets">Developed a Drupal automated testing framework and built fully automated Behat test suites</li>
 
+                <li class="bullets">Collaborated with all stakeholders of the project to develop accurate acceptance criteria for the client’s business needs and clarified specifications for developers through daily scrums and demonstrations</li>
 
-		<!-- Body content -->
-		<div class="hero-unit">
-			<div class="spacing"></div>
-			<a class="anchor" id="experience"></a>
-			<h1>Experience</h1>
+                <li class="bullets"> Exercised agile development methodology to identify bugs and provide continuous feedback to reduce ambiguities, eliminate blockers, and refine the product throughout the development cycle</li>
+            </ul>
+        </div>
+    </div>
 
-			<p>Aside from academic and hobby interests, I also code for profit. Here's a sample of where I've worked at. Not included here are my past high school jobs, volunteering positions, and that one time I helped mow my neighbour's lawn.</p>
+    <!-- Body content -->
+    <div class="content-container">
+        <div class="hero-unit">
+            <div class="spacing"></div>
+            <a class="anchor" id="projects"></a>
+            <h1>Projects</h1>
+            <div class="row">
+                <div class="thumbnail">
+                    <a href="https://github.com/OpenSourceMafia/OpenSourceMafia" target="_blank"><img src="img/mafia.jpg" /></a>
+                    <div class="caption">
+                        <h3>Open Source Mafia Hobby Project</h3>
+                        <p>Open source Java-based platform for the Mafia murder mystery party game currently available on desktop and Android 4.0.</p>
+                        <ul>
+                            <li class="bullets project">Each player is randomly assigned a role and an alignment towards the Mafia or the Town.</li>
 
-		</div>
-	</div>
+                            <li class="bullets project">Every night, each player performs his/her role's ability and votes towards eliminating a suspicious player.</li>
 
-	<!-- Jumbotron -->
-	<div class="jumbotron-experience">
-		<div class="parallax-experience-ms">
-			<div class="container">
-				<div class="caption-box">
-					<a class="appno-link" href="http://www.microsoft.com/" target="_blank">Microsoft</a><br />
-					<span class="banner text">Software Engineer Intern</span><br />
-					<span class="banner text">May 2015 to Present</span>
-				</div>
-			</div>
-		</div>
-	</div>
+                            <li class="bullets project">This is a game of deceit, persuasion, teamwork, and careful planning.</li>
 
+                            <li class="bullets project">The goal of each player depends on the winning condition of the respective roles.</li>
 
-
-	<div class="content-container">
-
-		<!-- Body content -->
-		<div class="hero-unit">
-
-			<ul>
-			<li class="bullets">Developed a fully responsive, cross-platform mobile app fully integrated with an online educational platform servicing over 3.3 million registered users</li>
-			<li class="bullets">Defined project specifications and rapidly prototyped solutions using open source technologies</li>
-			<li class="bullets">Rapid turnaround of 3 weeks from initial design phase to first functional demo at all-hands presentation</li>
-			<li class="bullets">Delivered a completed end-to-end product in 12 weeks that was escalated and pitched to executive management </li>
-			<li class="bullets" style="padding-bottom: 10px">Promoted marketing and outreach strategies for reaching untapped markets and increasing platform adoption</li>
-			</ul>
-
-		</div>
-	</div>
-
-	<!-- Jumbotron -->
-	<div class="jumbotron-experience">
-		<div class="parallax-experience-appno">
-			<div class="container">
-				<div class="caption-box">
-					<a class="appno-link" href="http://www.appnovation.com/blog/may-2014-co-op-cohort" target="_blank">Appnovation Technologies</a><br />
-					<span class="banner text">Software Quality Assurance Engineer Co-op</span><br />
-					<span class="banner text">May 2014 to December 2014</span>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-	<div class="content-container">
-
-		<!-- Body content -->
-		<div class="hero-unit">
-
-			<ul>
-			<li class="bullets">Worked directly with and lead presentations for established clients including Nvidia, Estée Lauder, VentureBeat, and Teach For All to ensure continuously integrated features and functionality meet the client’s requirements</li>	
-
-			<li class="bullets">Established web test automation standards and guidelines that is currently used in Pfizer websites</li>
-
-			<li class="bullets">Developed a Drupal automated testing framework and built fully automated Behat test suites</li>
-
-			<li class="bullets">Collaborated with all stakeholders of the project to develop accurate acceptance criteria for the client’s business needs and clarified specifications for developers through daily scrums and demonstrations</li>
-
-			<li class="bullets"> Exercised agile development methodology to identify bugs and provide continuous feedback to reduce ambiguities, eliminate blockers, and refine the product throughout the development cycle</li>
-			</ul>
-
-		</div>
-	</div>
-
-	<!-- Body content -->
-	<div class="content-container">
-		<div class="hero-unit">
-			<div class="spacing"></div>
-			<a class="anchor" id="projects"></a>
-			<h1>Projects</h1>
-
-			<div class="row">
-			    <div class="thumbnail">
-			      <a href="https://github.com/OpenSourceMafia/OpenSourceMafia" target="_blank"><img src="img/mafia.jpg"/></a>
-			      <div class="caption">
-			        <h3>Open Source Mafia Hobby Project</h3>
-			        <p>Open source Java-based platform for the Mafia murder mystery party game currently available on desktop and Android 4.0.</p>
-			        <ul>
-					<li class="bullets project">Each player is randomly assigned a role and an alignment towards the Mafia or the Town.</li>
-
-					<li class="bullets project">Every night, each player performs his/her role's ability and votes towards eliminating a suspicious player.</li>
-
-					<li class="bullets project">This is a game of deceit, persuasion, teamwork, and careful planning.</li>
-
-					<li class="bullets project">The goal of each player depends on the winning condition of the respective roles.</li>
-
-					<li class="bullets project">Game rules and roles are based on the SC2 Mafia Wiki: <a href="http://wiki.sc2mafia.com/index.php?title=Main_Page" target="_blank">http://wiki.sc2mafia.com/index.php?title=Main_Page</li>
+                            <li class="bullets project">Game rules and roles are based on the SC2 Mafia Wiki: <a href="http://wiki.sc2mafia.com/index.php?title=Main_Page" target="_blank">http://wiki.sc2mafia.com/index.php?title=Main_Page</li>
 			        </ul>
 			        <p><a href="http://opensourcemafia.github.io/OpenSourceMafia/" target="_blank" class="btn btn-default" role="button">Visit Site</a> <a href="https://github.com/OpenSourceMafia/OpenSourceMafia" target="_blank" class="btn btn-default" role="button">View Code</a></p>
-			      </div>
-			    </div>
-			  </div>
+                    </div>
+                </div>
+            </div>
+            <div id="masonry">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="thumbnail">
+                            <img src="img/autonomous.jpg">
+                            <div class="caption">
+                                <h3>Autonomous Electromagnetic Robot</h3>
+                                <p class="project">Solenoid receivers read voltage based on distance from remote's electromagnetic transmitter and follows the remote's physical location.</p>
 
-<div id="masonry">
-		  	<div class="row">
-			  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-			    <div class="thumbnail">
-			      <img src="img/autonomous.jpg">
-			      <div class="caption">
-			        <h3>Autonomous Electromagnetic Robot</h3>
-		        	<p class="project">Solenoid receivers read voltage based on distance from remote's electromagnetic transmitter and follows the remote's physical location.</p>
+                                <p class="project">The remote can send commands to parallel park, reverse orientation, and adjust following distance.</p>
 
-		        	<p class="project">The remote can send commands to parallel park, reverse orientation, and adjust following distance.</p>
+                                <p class="project">Robot's embedded software was written in C with some embedded assembly flashed to a modified Atmel AT89 microcontroller.</p>
 
-					<p class="project">Robot's embedded software was written in C with some embedded assembly flashed to a modified Atmel AT89 microcontroller.</p>
+                                <p class="project">Autonomous control can be manually overridden by plugging in and using the modified arcade joystick.</p>
+                                <p><a href="https://github.com/stephenhu3/autonomous-electromagnetic-robot" target="_blank" class="btn btn-default" role="button">View Code</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="thumbnail">
+                            <img src="img/parkour.jpg">
+                            <div class="caption">
+                                <h3>Harkour Parkour</h3>
+                                <p class="project">Parkour-themed endless-runner style game coded in Java and made with original sprites</p>
+                                <p class="project">Player performs flips and rolls for combo multipliers while navigating rooftops and collecting 'street cred'</p>
+                                <p class="project">Features an algorithm for procedurally generating the level layout for emergent gameplay</p>
+                                <p><a href="https://github.com/stephenhu3/harkour-parkour" target="_blank" class="btn btn-default" role="button">View Code</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="thumbnail">
+                            <img src="img/highlevel.jpg">
+                            <div class="caption">
+                                <h3>Applications</h3>
+                                <ul>
+                                    <li class="bullets project"><strong>Cache Memory Simulation, C (2014)</strong> – Simulates the behaviour of a memory cache given a sequence of accesses</li>
 
-					<p class="project">Autonomous control can be manually overridden by plugging in and using the modified arcade joystick.</p>
-			        <p><a href="https://github.com/stephenhu3/autonomous-electromagnetic-robot" target="_blank" class="btn btn-default" role="button">View Code</a></p>
-			      </div>
-			    </div>
-			  </div>
-			
+                                    <li class="bullets project"><strong>Web Server and Client, C (2014)</strong> – Client program using TCP transport protocol to make HTTP requests and receive responses, web server listens for arithmetic requests, parses the equation, computes it, and responds to the client with the answer</li>
 
+                                    <li class="bullets project"><strong>Dining Philosophers, C (2014)</strong> – Classic concurrency exercise implementing different synchronization strategies to demonstrate the methods of preventing deadlocks in multi-threaded programs</li>
 
-			  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-			    <div class="thumbnail">
-			      <img src="img/parkour.jpg">
-			      <div class="caption">
-			        <h3>Harkour Parkour</h3>
-			        <p class="project">Parkour-themed endless-runner style game coded in Java and made with original sprites</p>
-			        <p class="project">Player performs flips and rolls for combo multipliers while navigating rooftops and collecting 'street cred'</p>
-			        <p class="project">Features an algorithm for procedurally generating the level layout for emergent gameplay</p>
-			        <p><a href="https://github.com/stephenhu3/harkour-parkour" target="_blank" class="btn btn-default" role="button">View Code</a></p>
-			      </div>
-			    </div>
-			  </div>
-			</div>
+                                    <li class="bullets project"><strong>Simon Game, C (2013)</strong> – Coded a memory-based game designed to be fully functional with custom DAQ hardware</li>
 
-			<div class="row">
-			  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-			    <div class="thumbnail">
-			      <img src="img/highlevel.jpg">
-			      <div class="caption">
-			        <h3>Applications</h3>
-			        <ul>
+                                    <li class="bullets project"><strong>Data Acquisition and Analysis, C (2013)</strong> – Programmed software designed for computation in engineering design, including positioning and numerical and text displays for use with custom DAQ hardware</li>
 
-					<li class="bullets project"><strong>Cache Memory Simulation, C (2014)</strong> – Simulates the behaviour of a memory cache given a sequence of accesses</li>
+                                    <li class="bullets project"><strong>Library Management System, Java (2013)</strong> – Programmed software to manage library users and book inventory</li>
 
-			        <li class="bullets project"><strong>Web Server and Client, C (2014)</strong> – Client program using TCP transport protocol to make HTTP requests and receive responses, web server listens for arithmetic requests, parses the equation, computes it, and responds to the client with the answer</li>
+                                    <li class="bullets project"><strong>Music Catalogue, Java (2013)</strong> – Coded fully featured music cataloguing software with querying and XML encoding</li>
 
-					<li class="bullets project"><strong>Dining Philosophers, C (2014)</strong> – Classic concurrency exercise implementing different synchronization strategies to demonstrate the methods of preventing deadlocks in multi-threaded programs</li>
+                                    <li class="bullets project"><strong>HTML Validator, Java (2013)</strong> – Programmed software for validating formatting of HTML documents</li>
 
-					<li class="bullets project"><strong>Simon Game, C (2013)</strong> – Coded a memory-based game designed to be fully functional with custom DAQ hardware</li>
+                                    <li class="bullets project"><strong>Hobby Indie Games: Escape From Manhattan, Digester-3000, Hamlet’s Quest, Computitron, Connect 4, Star Strikers (2009-2011), GML</strong> – Foray into programming, developed knowledge of AI, OOP, and UI concepts</li>
+                                    <br>
+                                    <ul>
+                                    <p><a href="https://github.com/stephenhu3" target="_blank" class="btn btn-default" role="button">View Code</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="thumbnail">
+                            <img src="img/lowlevel.jpg">
+                            <div class="caption">
+                                <h3>Embedded Software</h3>
+                                <ul>
+                                    <li class="bullets project"><strong>Motor Controller, C (2014)</strong> – Isolated motor controller using a "MOSFET H-Bridge" circuit with pulse-width modulation control written in embedded C</li>
 
-					<li class="bullets project"><strong>Data Acquisition and Analysis, C (2013)</strong> – Programmed software designed for computation in engineering design, including positioning and numerical and text displays for use with custom DAQ hardware</li>
+                                    <li class="bullets project"><strong>Phasor Voltmeter, C (2014)</strong> – 60Hz AC peak detector using a precision diode which detects and displays the test signal's volts RMS, frequency, and phase difference between the test and reference signal</li>
 
-					<li class="bullets project"><strong>Library Management System, Java (2013)</strong> – Programmed software to manage library users and book inventory</li>
+                                    <li class="bullets project"><strong>Water Level Sensor, C (2014)</strong> – Detects the water level in jar and outputs it the 7-segment displays by following the inverse relationship between capacitance and the frequency output of the 555 timer circuit used as an astable oscillator</li>
 
-					<li class="bullets project"><strong>Music Catalogue, Java (2013)</strong> – Coded fully featured music cataloguing software with querying and XML encoding</li>
+                                    <li class="bullets project"><strong>Reflow Oven Controller, 8051 Assembly (2014)</strong> – Uses a K-type thermocouple to detect temperatures between 0 to 250 degrees Celsius. The controller regulates the temperature using pulse-width modulation and has user-configurable settings for soak temperature, soak time, reflow temperature, and reflow time. The current state, running time, and temperature is displayed using the LCD and 7-segment displays. The embedded software also logs the data to a strip chart.</li>
 
-					<li class="bullets project"><strong>HTML Validator, Java (2013)</strong> – Programmed software for validating formatting of HTML documents</li>
+                                    <li class="bullets project"><strong>Digital Thermometer, 8051 Assembly (2013)</strong> – Embedded thermometer's analog data is converted using an ADC circuit and transmitted serially and logged to a Python strip chart</li>
 
-					<li class="bullets project"><strong>Hobby Indie Games: Escape From Manhattan, Digester-3000, Hamlet’s Quest, Computitron, Connect 4, Star Strikers (2009-2011), GML</strong> – Foray into programming, developed knowledge of AI, OOP, and UI concepts</li><br>
-					<ul>
-			        <p><a href="https://github.com/stephenhu3" target="_blank" class="btn btn-default" role="button">View Code</a></p>
-			      </div>
-			    </div>
-			  </div>
-			
+                                    <li class="bullets project"><strong>Alarm Clock, 8051 Assembly (2013)</strong> – Adjustable alarm clock with date, time, and snooze functions</li>
 
+                                    <li class="bullets project"><strong>32 Bit Frequency Meter, 8051 Assembly (2013)</strong> – Displays frequency in BCD from input oscilloscope source</li>
 
-			  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-			    <div class="thumbnail">
-			      <img src="img/lowlevel.jpg">
-			      <div class="caption">
-			        <h3>Embedded Software</h3>
-			        <ul>
-			        <li class="bullets project"><strong>Motor Controller, C (2014)</strong> – Isolated motor controller using a "MOSFET H-Bridge" circuit with pulse-width modulation control written in embedded C</li>
+                                    <li class="bullets project"><strong>VCR Controller, VHDL (2013)</strong> – Implements Mealy FSM model with LCD message display and BCD counter</li>
 
-					<li class="bullets project"><strong>Phasor Voltmeter, C (2014)</strong> – 60Hz AC peak detector using a precision diode which detects and displays the test signal's volts RMS, frequency, and phase difference between the test and reference signal</li>
+                                    <li class="bullets project"><strong>BCD Calculators, VHDL, 8051, 68k Assembly (2013)</strong> – Synthesized with truth tables and Boolean equations, then optimized with logic gates, written in VHDL, and coded in 8051 and 68k Assembly</li>
+                                    <br>
+                                    <ul>
+                                    <p><a href="https://github.com/stephenhu3" target="_blank" class="btn btn-default" role="button">View Code</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="thumbnail">
+                            <img src="img/operatingsystems.jpg">
+                            <div class="caption">
+                                <h3>Operating Systems</h3>
+                                <ul>
+                                    <li class="bullets project"><strong>Host Dispatcher, C (2015)</strong> – Simulation of a multilevel feedback queue scheduler made with contributor Rico Wen</li>
 
-					<li class="bullets project"><strong>Water Level Sensor, C (2014)</strong> – Detects the water level in jar and outputs it the 7-segment displays by following the inverse relationship between capacitance and the frequency output of the 555 timer circuit used as an astable oscillator</li>
+                                    <li class="bullets project"><strong>Successive Over-relaxation Systems of Linear Equation Solver, C (2015)</strong> – Solves an N x M system of linear equations using the successive over-relaxation method to demonstrate forked processes</li>
 
-					<li class="bullets project"><strong>Reflow Oven Controller, 8051 Assembly (2014)</strong> – Uses a K-type thermocouple to detect temperatures between 0 to 250 degrees Celsius. The controller regulates the temperature using pulse-width modulation and has user-configurable settings for soak temperature, soak time, reflow temperature, and reflow time. The current state, running time, and temperature is displayed using the LCD and 7-segment displays. The embedded software also logs the data to a strip chart.</li>
+                                    <li class="bullets project"><strong>UNIX Shell, C (2015)</strong> – Basic Unix style shell made with contributor Rico Wen</li>
 
-					<li class="bullets project"><strong>Digital Thermometer, 8051 Assembly (2013)</strong> – Embedded thermometer's analog data is converted using an ADC circuit and transmitted serially and logged to a Python strip chart</li>
+                                    <li class="bullets project"><strong>Operating System Projects, C (2015)</strong> – Linux-based OS Projects made with contributors Rico Wen, Steven Rezeki, and YoungJin Jo</li>
+                                    <ul>
+                                    <p><a href="https://github.com/stephenhu3" target="_blank" class="btn btn-default" role="button">View Code</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="thumbnail">
+                            <img src="img/misc.jpg">
+                            <div class="caption">
+                                <h3>Miscellaneous</h3>
+                                <ul>
+                                    <li class="bullets project"><strong>Universal Puzzle Solver, C (2015)</strong> – Solve Sudoku, Slider, Maze, and Wolf Goat Cabbage puzzles using different implementations of dictionary data structures</li>
 
-					<li class="bullets project"><strong>Alarm Clock, 8051 Assembly (2013)</strong> – Adjustable alarm clock with date, time, and snooze functions</li>
+                                    <li class="bullets project"><strong>Morphine, JavaScript (2015)</strong> – Contributions to web productivity tool. Forked from Teddy Cross.</li>
 
-					<li class="bullets project"><strong>32 Bit Frequency Meter, 8051 Assembly (2013)</strong> – Displays frequency in BCD from input oscilloscope source</li>
-
-					<li class="bullets project"><strong>VCR Controller, VHDL (2013)</strong> – Implements Mealy FSM model with LCD message display and BCD counter</li>
-
-					<li class="bullets project"><strong>BCD Calculators, VHDL, 8051, 68k Assembly (2013)</strong> – Synthesized with truth tables and Boolean equations, then optimized with logic gates, written in VHDL, and coded in 8051 and 68k Assembly</li><br>
-					<ul>
-			        <p><a href="https://github.com/stephenhu3" target="_blank" class="btn btn-default" role="button">View Code</a></p>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-
-			<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-			    <div class="thumbnail">
-			      <img src="img/operatingsystems.jpg">
-			      <div class="caption">
-			        <h3>Operating Systems</h3>
-			        <ul>
-			        <li class="bullets project"><strong>Host Dispatcher, C (2015)</strong> – Simulation of a multilevel feedback queue scheduler made with contributor Rico Wen</li>
-
-					<li class="bullets project"><strong>Successive Over-relaxation Systems of Linear Equation Solver, C (2015)</strong> – Solves an N x M system of linear equations using the successive over-relaxation method to demonstrate forked processes</li>
-
-					<li class="bullets project"><strong>UNIX Shell, C (2015)</strong> – Basic Unix style shell made with contributor Rico Wen</li>
-
-					<li class="bullets project"><strong>Operating System Projects, C (2015)</strong> – Linux-based OS Projects made with contributors Rico Wen, Steven Rezeki, and YoungJin Jo</li>
-					<ul>
-			        <p><a href="https://github.com/stephenhu3" target="_blank" class="btn btn-default" role="button">View Code</a></p>
-			      </div>
-			    </div>
-		  	</div>
-
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-			    <div class="thumbnail">
-			      <img src="img/misc.jpg">
-			      <div class="caption">
-			        <h3>Miscellaneous</h3>
-			        <ul>
-			        <li class="bullets project"><strong>Universal Puzzle Solver, C (2015)</strong> – Solve Sudoku, Slider, Maze, and Wolf Goat Cabbage puzzles using different implementations of dictionary data structures</li>
-
-					<li class="bullets project"><strong>Morphine, JavaScript (2015)</strong> – Contributions to web productivity tool. Forked from Teddy Cross.</li>
-
-					<li class="bullets project"><strong>Chroma-Note, JavaScript (2015)</strong> – Quick and dirty note taking web app made for my personal use</li>
-					<ul>
-			        <p><a href="https://github.com/stephenhu3" target="_blank" class="btn btn-default" role="button">View Code</a></p>
-			      </div>
-			    </div>
-		  	</div>
-		</div>
-	</div>
-</div>
-
-		<hr>
-		<div class="footer">
-			<table>
-				<tr><td><p>Developed by <a href="https://github.com/stephenhu3">Stephen Hu</a> | stephenhu3@gmail.com</p></td></tr>
-				<tr><td><a href="http://opencv.org/">Background gaussian blur filter applied using the OpenCV computer vision library</a></td></tr>
-				<tr><td><a href="https://github.com/stephenhu3/stephenhu3.github.io">View the source code for this site</a></td></tr>
-				<tr><td><a href="https://drive.google.com/file/d/0BzsBG41smFPKNll4MDcyN2o4bG8/view?usp=sharing" target="_blank">View Resume</a></td></tr>
-			</table>
-		</div>
-	</div>
-
-
+                                    <li class="bullets project"><strong>Chroma-Note, JavaScript (2015)</strong> – Quick and dirty note taking web app made for my personal use</li>
+                                    <ul>
+                                    <p><a href="https://github.com/stephenhu3" target="_blank" class="btn btn-default" role="button">View Code</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer">
+            <table>
+                <tr>
+                    <td>
+                        <p>Developed by <a href="https://github.com/stephenhu3">Stephen Hu</a> | stephenhu3@gmail.com</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="http://opencv.org/">Background gaussian blur filter applied using the OpenCV computer vision library</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/stephenhu3/stephenhu3.github.io">View the source code for this site</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://drive.google.com/file/d/0BzsBG41smFPKNll4MDcyN2o4bG8/view?usp=sharing" target="_blank">View Resume</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
+
 </html>

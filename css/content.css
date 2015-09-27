@@ -1,3 +1,13 @@
+@media (min-width: 1536px) {
+    .bio {
+        margin-top: 35px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1535px) {
+    .bio {
+        margin-top: 10px;
+    }
+}
 a.anchor {
     display: block;
     position: relative;
@@ -131,7 +141,7 @@ a {
     background: url('../img/jumbotron-main.jpg');
     color: #fff;
     background-size: cover;
-    padding-bottom: 105px;
+    padding-bottom: 75px;
 }
 .parallax-experience-appno {
     background: url('../img/jumbotron-secondary.jpg') no-repeat center center fixed;
@@ -174,7 +184,7 @@ h5.banner {
     font-weight: 300;
     padding: 2px 3px 2px 3px;
 }
-.resume {
+#banner-link {
     margin-top: -10px;
     font-size: 12pt;
     color: #FFFFFF;
@@ -183,8 +193,9 @@ h5.banner {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     padding: 2px;
+    margin-right: 3px;
 }
-.resume:hover {
+#banner-link:hover {
     color: #000000;
     background-color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
@@ -211,7 +222,7 @@ p {
     color: inherit;
 }
 .jumbotron-modified p {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
     font-size: 21px;
