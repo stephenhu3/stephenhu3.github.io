@@ -78,10 +78,10 @@ a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-.project p{
+.project p {
     font-size: 1.3em;
 }
-.project li{
+.project li {
     font-size: 1.3em;
     margin-left: 10pt;
     font-family: 'Roboto', sans-serif;
@@ -96,6 +96,9 @@ a {
     font-weight: 400;
     line-height: 1.6em;
     margin-bottom: 0.7em;
+}
+.bullets li:last-child {
+    padding-bottom: 15px;
 }
 .caption-box {
     display: table;
@@ -255,7 +258,7 @@ p {
     }
     .jumbotron-experience {
         padding: 30px 15px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         color: inherit;
         background-color: #e7e7e7;
     }
