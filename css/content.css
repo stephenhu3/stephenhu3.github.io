@@ -58,13 +58,13 @@ a.anchor {
     font-weight: 700;
     font-size: 11px;
 }
-.headshot {
+.headshot img{
     float: left;
     width: 240px;
     height: auto;
     margin: 5pt 15pt 5pt -15pt;
 }
-#portrait-container {
+.portrait-container {
     position: relative;
     float: left;
 }
@@ -78,14 +78,18 @@ a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-.project {
+.project p{
     font-size: 1.3em;
 }
-.bullets.project {
+.project li{
     font-size: 1.3em;
+    margin-left: 10pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.6em;
     margin-bottom: 0.6em;
 }
-.bullets {
+.bullets li {
     font-size: 1.5em;
     margin-left: 10pt;
     font-family: 'Roboto', sans-serif;
@@ -184,7 +188,7 @@ h5.banner {
     font-weight: 300;
     padding: 2px 3px 2px 3px;
 }
-#banner-link {
+.banner-link {
     margin-top: -10px;
     font-size: 12pt;
     color: #FFFFFF;
@@ -195,7 +199,7 @@ h5.banner {
     padding: 2px;
     margin-right: 3px;
 }
-#banner-link:hover {
+.banner-link:hover {
     color: #000000;
     background-color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
