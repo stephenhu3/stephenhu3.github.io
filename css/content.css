@@ -164,6 +164,13 @@ a {
     padding-top: 25px;
     padding-bottom: 50px;
 }
+.parallax-experience-uber {
+    background: url('../img/uber.jpg') no-repeat center center fixed;
+    color: #fff;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
 h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
