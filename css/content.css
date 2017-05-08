@@ -8,6 +8,14 @@
         margin-top: 10px;
     }
 }
+@media (min-width: 768px) {
+    .navbar-fixed-top {
+        border-width: 0 0 2px;
+    }
+}
+button.navbar-toggle.pull-left {
+    margin-left: 12px;
+}
 a.anchor {
     display: block;
     position: relative;
@@ -16,9 +24,6 @@ a.anchor {
 }
 .navbar.navbar-default.navbar-fixed-top {
     background-color: #FFFFFF;
-}
-.navbar-fixed-top {
-    border-width: 0 0 3px;
 }
 .spacing {
     padding-top: 10pt;
@@ -226,7 +231,7 @@ p {
     padding-right: 5px;
 }
 .jumbotron-modified {
-    padding: 30px 15px;
+    padding-top: 30px;
     margin-bottom: 30px;
     color: inherit;
     background-color: #e7e7e7;
