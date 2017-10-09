@@ -162,6 +162,13 @@ a {
     padding-top: 25px;
     padding-bottom: 50px;
 }
+.parallax-experience-ms-edx {
+    background: url('../img/microsoft-edx.jpg') no-repeat center center fixed;
+    color: #fff;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
 .parallax-experience-ms {
     background: url('../img/microsoft-experience.jpg') no-repeat center center fixed;
     color: #fff;
@@ -169,7 +176,14 @@ a {
     padding-top: 25px;
     padding-bottom: 50px;
 }
-.parallax-experience-uber {
+.parallax-experience-uber-adtech {
+    background: url('../img/uber-adtech.jpg') no-repeat center center fixed;
+    color: #fff;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.parallax-experience-uber-payment {
     background: url('../img/uber.jpg') no-repeat center center fixed;
     color: #fff;
     background-size: cover;
